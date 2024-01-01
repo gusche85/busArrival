@@ -1,0 +1,3 @@
+The backend logic of this bus arrival app involves fetching real-time bus arrival data from a specified API when the user enters a bus stop ID. The fetchBusArrival function sends a request to the API, and upon a successful response, the data is formatted using the formatArrivalData function. The formatted data is then dynamically displayed on the webpage through the displayBusArrival function, providing users with the upcoming bus arrival times. The getBusTiming function acts as an entry point, capturing the user-input bus stop ID and triggering the data-fetching process.
+
+<img width="322" alt="Screenshot 2024-01-01 at 16 02 38" src="https://github.com/gusche85/busArrival/assets/149746619/94a4cc61-a273-4af5-8d79-b6ea2e4b3351">
